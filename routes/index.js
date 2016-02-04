@@ -13,5 +13,13 @@ router.get('/about', function(req, res, next) {
 router.get('/contact', function(req, res, next) {
   res.render('contact', { title: 'Contact Page' });
 });
+/* GET Project page. */
+router.get('/contact', function(req, res, next) {
+  res.render('contact', { title: 'Project Page' });
+});
+/* GET Service page. */
+router.get('/contact', function(req, res, next) {
+  res.render('contact', { title: 'Service Page' });
+});
 
 module.exports = router;
