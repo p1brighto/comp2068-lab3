@@ -15,11 +15,11 @@ router.get('/contact', function(req, res, next) {
 });
 /* GET Project page. */
 router.get('/project', function(req, res, next) {
-  res.render('contact', { title: 'Project Page' });
+  res.render('project', { title: 'Project Page' });
 });
 /* GET Service page. */
 router.get('/service', function(req, res, next) {
-  res.render('contact', { title: 'Service Page' });
+  res.render('service', { title: 'Service Page' });
 });
 
 module.exports = router;
